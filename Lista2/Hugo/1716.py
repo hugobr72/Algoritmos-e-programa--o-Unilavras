@@ -11,3 +11,4 @@ elif plano == "B":
   print("Novo salário: R$%.2f" %(salarioPlanoB))
 elif plano == "C":
   print("Novo salário: R$%.2f" %(salarioPlanoC))
+#https://www.beecrowd.com.br/judge/pt/custom-runs/code/391252

@@ -11,3 +11,4 @@ else:
     valAcum = valAcum + informNumero
     qtdNumero = qtdNumero -1
   print("Soma dos números informados: %.2f" %(valAcum))
+#https://www.beecrowd.com.br/judge/pt/custom-runs/code/395674

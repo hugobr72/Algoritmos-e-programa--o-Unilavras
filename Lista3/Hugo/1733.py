@@ -24,3 +24,4 @@ salLiquido = salBruto - INSS - IR
 print ("Nome: %s" %(NomeFunc))
 print ("Salário bruto: R$%.2f" %(salBruto))
 print("Salário líquido: R$%.2f" % (salLiquido))
+#https://www.beecrowd.com.br/judge/pt/custom-runs/code/395509

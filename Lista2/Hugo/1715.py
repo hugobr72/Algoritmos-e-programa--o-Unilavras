@@ -14,3 +14,4 @@ elif comprador == 3:
   print("Valor total a ser pago: R$%.2f" %(premium))
 else:
   print("OPÇÃO INVÁLIDA!")
+#https://www.beecrowd.com.br/judge/pt/custom-runs/code/391251
