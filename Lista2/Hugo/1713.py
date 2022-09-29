@@ -10,3 +10,4 @@ print('Imposto: %.2f' %(impostoRenda))
 print('INSS: %.2f' %(inss))
 print('Sindicato: %.2f' %(sindicato))
 print('Líquido: %.2f' %(salarioLiquido))
+#https://www.beecrowd.com.br/judge/pt/custom-runs/code/391877
