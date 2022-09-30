@@ -1,4 +1,4 @@
-#https://www.beecrowd.com.br/judge/pt/custom-runs/code/391249
+#https://www.beecrowd.com.br/judge/pt/custom-problems/view/1714
 
 valorCompra = float(input(""))
 

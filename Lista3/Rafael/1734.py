@@ -1,4 +1,4 @@
-#https://www.beecrowd.com.br/judge/pt/custom-runs/code/395633
+#https://www.beecrowd.com.br/judge/pt/custom-problems/view/1734
 
 valor = int(input(''))
 

@@ -1,4 +1,4 @@
-#https://www.beecrowd.com.br/judge/pt/custom-runs/code/392811
+#https://www.beecrowd.com.br/judge/pt/custom-problems/view/1715
 
 cliente = int(input())
 valor_cliente = float(input())

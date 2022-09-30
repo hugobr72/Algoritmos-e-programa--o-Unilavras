@@ -1,4 +1,4 @@
-#https://www.beecrowd.com.br/judge/pt/custom-runs/code/395509
+#https://www.beecrowd.com.br/judge/pt/custom-problems/view/1733
 
 salMinimo = 1192.40
 valHoraExtra = 10.00

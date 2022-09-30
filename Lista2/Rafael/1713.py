@@ -1,4 +1,4 @@
-#https://www.beecrowd.com.br/judge/pt/custom-runs/code/391880
+#https://www.beecrowd.com.br/judge/pt/custom-problems/view/1713
 
 salario_hora = float(input())
 horas_mes = float(input())

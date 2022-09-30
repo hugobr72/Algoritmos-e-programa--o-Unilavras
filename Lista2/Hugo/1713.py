@@ -1,4 +1,4 @@
-#https://www.beecrowd.com.br/judge/pt/custom-runs/code/391877
+#https://www.beecrowd.com.br/judge/pt/custom-problems/view/1713
 
 ganhoPorHora = float(input())
 horas = float(input())

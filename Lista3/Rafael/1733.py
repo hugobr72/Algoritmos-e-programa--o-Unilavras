@@ -1,4 +1,4 @@
-#https://www.beecrowd.com.br/judge/pt/custom-runs/code/395642
+#https://www.beecrowd.com.br/judge/pt/custom-problems/view/1733
 
 nome = str(input(''))
 hora_extras = float(input(''))

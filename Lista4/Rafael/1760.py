@@ -1,4 +1,4 @@
-#https://www.beecrowd.com.br/judge/pt/custom-runs/code/403315
+#https://www.beecrowd.com.br/judge/pt/custom-problems/view/1760
 
 peso90 = 0
 soma = 0

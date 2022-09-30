@@ -1,4 +1,4 @@
-#https://www.beecrowd.com.br/judge/pt/runs/code/30082948
+#https://www.beecrowd.com.br/judge/pt/problems/view/1074
 
 n = int(input())
 x =['']

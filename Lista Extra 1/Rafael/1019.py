@@ -1,4 +1,4 @@
-#https://www.beecrowd.com.br/judge/pt/runs/code/30082878
+#https://www.beecrowd.com.br/judge/pt/problems/view/1019
 
 tempoDuracao = int(input())
 hora = 0 

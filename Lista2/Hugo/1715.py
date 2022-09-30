@@ -1,4 +1,4 @@
-#https://www.beecrowd.com.br/judge/pt/custom-runs/code/391251
+#https://www.beecrowd.com.br/judge/pt/custom-problems/view/1715
 
 comprador = int(input(""))
 compra = float(input(""))

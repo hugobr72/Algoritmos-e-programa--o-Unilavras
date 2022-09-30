@@ -1,4 +1,4 @@
-#https://www.beecrowd.com.br/judge/pt/custom-runs/code/397670
+#https://www.beecrowd.com.br/judge/pt/custom-problems/view/1737
 
 somaNum = 0
 

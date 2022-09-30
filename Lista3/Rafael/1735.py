@@ -1,4 +1,4 @@
-#https://www.beecrowd.com.br/judge/pt/custom-runs/code/397789
+#https://www.beecrowd.com.br/judge/pt/custom-problems/view/1735
 
 valorI = int(input())
 valorF = int(input())

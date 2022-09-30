@@ -1,4 +1,4 @@
-#https://www.beecrowd.com.br/judge/pt/custom-runs/code/395534
+#https://www.beecrowd.com.br/judge/pt/custom-problems/view/1735
 
 inicio = int(input(""))
 fim = int(input(""))

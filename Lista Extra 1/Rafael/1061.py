@@ -1,4 +1,5 @@
-#https://www.beecrowd.com.br/judge/pt/runs/code/30082916
+#https://www.beecrowd.com.br/judge/pt/problems/view/1061
+
 
 dia_i = input().split()
 hora_i = input().split()

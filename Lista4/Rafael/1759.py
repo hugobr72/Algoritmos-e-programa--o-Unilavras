@@ -1,4 +1,4 @@
-#https://www.beecrowd.com.br/judge/pt/custom-runs/code/402978
+#https://www.beecrowd.com.br/judge/pt/custom-problems/view/1759
 
 anoAtual = int(input())
 valInicial = 1015

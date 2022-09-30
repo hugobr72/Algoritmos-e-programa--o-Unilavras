@@ -1,4 +1,4 @@
-#https://www.beecrowd.com.br/judge/pt/runs/code/30082842
+#https://www.beecrowd.com.br/judge/pt/problems/view/1017
 
 tempoGasto = int(input())
 velocidadeMedia = int(input())

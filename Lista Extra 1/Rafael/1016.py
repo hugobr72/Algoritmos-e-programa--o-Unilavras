@@ -1,4 +1,4 @@
-#https://www.beecrowd.com.br/judge/pt/runs/code/30082832
+#https://www.beecrowd.com.br/judge/pt/problems/view/1016
 
 d = int(input())
 t = d * 2

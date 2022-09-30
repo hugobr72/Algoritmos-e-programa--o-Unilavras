@@ -1,5 +1,4 @@
-#https://www.beecrowd.com.br/judge/pt/runs/code/30082898
-
+#https://www.beecrowd.com.br/judge/pt/problems/view/1021
 n = float(input())
 
 n100 = n // 100

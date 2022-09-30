@@ -1,4 +1,4 @@
-#https://www.beecrowd.com.br/judge/pt/custom-runs/code/391858
+#https://www.beecrowd.com.br/judge/pt/custom-problems/view/1711
 
 lado = float(input())
 
