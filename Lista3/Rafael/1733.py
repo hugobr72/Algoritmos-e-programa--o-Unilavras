@@ -1,26 +1,26 @@
-salMinimo = 1192.40
-valHoraExtra = 10.00
+#https://www.beecrowd.com.br/judge/pt/custom-runs/code/395642
 
-NomeFunc = input ("")
-horaExtra = float (input(""))
+nome = str(input(''))
+hora_extras = float(input(''))
 
-salHoraExtra = horaExtra * valHoraExtra
-salBruto = 3 * salMinimo + salHoraExtra
+salario_minimo = 1192.40
+valor_hora = 10
+salario_hora_extra = hora_extras * valor_hora
+salario_bruto = salario_hora_extra + (3 * salario_minimo)
 
-
-if salBruto > 2000.00:
-  INSS = salBruto * 0.12
+if salario_bruto > 2000:
+    inss = salario_bruto * 0.12 
 else:
-  INSS = salBruto * 0.05
-
-if salBruto > 2500.00:
-  IR = salBruto * 0.20
+    inss = salario_bruto * 0.05
+    
+if salario_bruto > 2500:
+    imposto_renda = salario_bruto * 0.20
 else:
-  IR = 0
+    imposto_renda = 0
 
-salLiquido = salBruto - INSS - IR
+descontos = inss + imposto_renda
+salario_liquido = salario_bruto - descontos
 
-
-print ("Nome: %s" %(NomeFunc))
-print ("Salário bruto: R$%.2f" %(salBruto))
-print("Salário líquido: R$%.2f" % (salLiquido))
+print("Nome: %s" %(nome));
+print("Salário bruto: R$%.2f" %(salario_bruto))
+print("Salário líquido: R$%.2f" %(salario_liquido))

@@ -1,12 +1,9 @@
-inicio = int(input(""))
-fim = int(input(""))
+#https://www.beecrowd.com.br/judge/pt/custom-runs/code/397789
 
-contagem = 1
+valorI = int(input())
+valorF = int(input())
 
-
-
-while contagem <= inicio and inicio >= fim:
-  print(inicio)
-  inicio = inicio - contagem
-  
-print("Fogo!")
+while valorI >= valorF:
+    print(valorI)
+    valorI = valorI - 1
+print('Fogo!')

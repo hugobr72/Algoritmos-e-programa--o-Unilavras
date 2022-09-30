@@ -1,4 +1,4 @@
-<h1 align="center">Lista de exercícios do curso de Algoritimo e Programação</h1>
+<h1 align="center">Lista de exercícios do curso de Algoritmo e Programação</h1>
 <div align="center">
 <h2>Lógica de programação com Python</h2>
 <p>Os arquivos podem ser executados em qualquer editor de codigo.</p>

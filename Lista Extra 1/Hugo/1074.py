@@ -1,3 +1,5 @@
+#https://www.beecrowd.com.br/judge/pt/problems/view/1074
+
 n = int(input())
 x =['']
 for i in range(1,n + 1):
@@ -18,4 +20,3 @@ for i in range(1,n + 1):
             print('EVEN NEGATIVE')
         else:
             print('ODD NEGATIVE')
-#https://www.beecrowd.com.br/judge/pt/problems/view/1074

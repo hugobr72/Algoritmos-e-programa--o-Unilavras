@@ -1,4 +1,5 @@
-print('Hello world')
-#https://www.beecrowd.com.br/judge/pt/problems/view/1000
+#https://www.beecrowd.com.br/judge/pt/runs/code/30056878
 
-hola
+print('Hello world')
+
+

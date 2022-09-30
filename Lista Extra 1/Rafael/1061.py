@@ -1,3 +1,5 @@
+#https://www.beecrowd.com.br/judge/pt/runs/code/30082916
+
 dia_i = input().split()
 hora_i = input().split()
 dia_f = input().split()
@@ -21,4 +23,4 @@ if i < f:
     tempo = tempo%minuto_seg
     segundos = tempo
     print('{} dia(s)\n{} hora(s)\n{} minuto(s)\n{} segundo(s)'.format(dias, horas, minutos, segundos))
-#https://www.beecrowd.com.br/judge/pt/problems/view/1061
+

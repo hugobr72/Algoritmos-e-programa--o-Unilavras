@@ -1,13 +1,17 @@
-qtdNumero = int(input(""))
+#https://www.beecrowd.com.br/judge/pt/custom-runs/code/397670
 
+somaNum = 0
 
-valAcum = 0
+qtdNum = int(input())
 
-if qtdNumero <=0:
-  print("Informe uma quantidade > 0!")
+if qtdNum <= 0:
+   print('Informe uma quantidade > 0!')
+   
 else:
-  while qtdNumero > 0:
-    informNumero = float(input(""))
-    valAcum = valAcum + informNumero
-    qtdNumero = qtdNumero -1
-  print("Soma dos números informados: %.2f" %(valAcum))
+    while qtdNum > 0:
+         digN = float(input())
+         somaNum = somaNum + digN
+    
+         qtdNum = qtdNum - 1
+
+    print('Soma dos números informados: %.2f' %(somaNum))

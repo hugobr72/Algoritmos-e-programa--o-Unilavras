@@ -1,4 +1,7 @@
-lado = float(input(''))
+#https://www.beecrowd.com.br/judge/pt/custom-runs/code/391858
+
+lado = float(input())
+
 area = lado * lado
 
-print('A área do quadrado de lado %.2f é igual a %.2f' %(lado,area))
+print('A área do quadrado de lado {:.2f} é igual a {:.2f}'.format(lado, area))

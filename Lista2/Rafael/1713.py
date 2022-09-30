@@ -1,12 +1,17 @@
-ganhoPorHora = float(input())
-horas = float(input())
-salarioBruto = ganhoPorHora * horas
-inss = salarioBruto * 0.08
-sindicato = salarioBruto * 0.05
-impostoRenda = salarioBruto * 0.11
-salarioLiquido = salarioBruto - (inss  + sindicato + impostoRenda)
-print('Salário bruto: %.2f' %(salarioBruto))
-print('Imposto: %.2f' %(impostoRenda))
-print('INSS: %.2f' %(inss))
-print('Sindicato: %.2f' %(sindicato))
-print('Líquido: %.2f' %(salarioLiquido))
+#https://www.beecrowd.com.br/judge/pt/custom-runs/code/391880
+
+salario_hora = float(input())
+horas_mes = float(input())
+
+salario_bruto = salario_hora * horas_mes
+desconto_imposto = salario_bruto * 0.11
+desconto_inss = salario_bruto * 0.08
+desconto_sindicato = salario_bruto * 0.05
+desconto_total = desconto_imposto + desconto_inss + desconto_sindicato
+salario_liquido = salario_bruto - desconto_total
+
+print("Salário bruto: R$%.2f" % salario_bruto)
+print("Imposto: R$%.2f" % desconto_imposto)
+print("INSS: R$%.2f" % desconto_inss)
+print("Sindicato: R$%.2f" % desconto_sindicato)
+print("Líquido: R$%.2f" % salario_liquido)

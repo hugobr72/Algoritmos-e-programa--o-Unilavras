@@ -1,3 +1,5 @@
+#https://www.beecrowd.com.br/judge/pt/custom-runs/code/395534
+
 inicio = int(input(""))
 fim = int(input(""))
 
@@ -10,4 +12,3 @@ while contagem <= inicio and inicio >= fim:
   inicio = inicio - contagem
   
 print("Fogo!")
-#https://www.beecrowd.com.br/judge/pt/custom-runs/code/395534

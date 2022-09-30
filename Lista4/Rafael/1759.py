@@ -1,17 +1,26 @@
-anoFim = int(input(''))
+#https://www.beecrowd.com.br/judge/pt/custom-runs/code/402978
 
-salarioInicio = 1000
-salario = salarioInicio 
-porcentual = 1.015
-if anoFim > 2005:
-    for c in range(2005,anoFim):
-        c +=1
-        if c == 2006:
-            salario = salario * 1.015
-        else:
-            porcentual = porcentual + 0.01
-            salario = salario * porcentual
-    print('Salário atual: R$%.2f' %salario)
-else:
-    print('O ano informado deverá ser > 2005!')
-#https://www.beecrowd.com.br/judge/pt/custom-problems/view/1759
+anoAtual = int(input())
+valInicial = 1015
+valorSomado = 1015
+contadorPorc = 0.015
+somaPorc = 0.01
+
+anos = anoAtual - 2006
+
+if anoAtual < 2006:
+    print("O ano informado deverá ser > 2005!")
+
+elif anoAtual == 2006:
+    print("Salário atual: R$%.2f" %(valInicial))
+
+elif anoAtual > 2006:
+    porcentagem = (0.015 + 0.01)
+    Anterior = valInicial
+
+    for x in range(anos):
+        calculo = Anterior + (Anterior * porcentagem)
+        Anterior = calculo
+        porcentagem += 0.01
+        
+    print("Salário atual: R$%.2f"%(calculo))

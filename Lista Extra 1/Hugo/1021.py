@@ -1,3 +1,5 @@
+#https://www.beecrowd.com.br/judge/pt/problems/view/1021
+
 n = float(input())
 
 n100 = n // 100
@@ -61,4 +63,4 @@ print('{} moeda(s) de R$ 0.25'.format(int(m25)))
 print('{} moeda(s) de R$ 0.10'.format(int(m10)))
 print('{} moeda(s) de R$ 0.05'.format(int(m5)))
 print('{} moeda(s) de R$ 0.01'.format(int(m1)))
-#https://www.beecrowd.com.br/judge/pt/problems/view/1021
+

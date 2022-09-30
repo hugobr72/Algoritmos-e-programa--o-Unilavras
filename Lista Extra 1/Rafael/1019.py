@@ -1,3 +1,5 @@
+#https://www.beecrowd.com.br/judge/pt/runs/code/30082878
+
 tempoDuracao = int(input())
 hora = 0 
 minutos = 0
@@ -25,4 +27,4 @@ while True:
     segundos += 1
 
 print('%i:%i:%i' % (hora, minutos, segundos))
-#https://www.beecrowd.com.br/judge/pt/problems/view/1019
+

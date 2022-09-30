@@ -1,10 +1,10 @@
-valorCompra = float(input(""))
+#https://www.beecrowd.com.br/judge/pt/custom-runs/code/392780
 
-lucro1 = (valorCompra * 0.45) + valorCompra
-lucro2 = (valorCompra * 0.30) + valorCompra
+Valor_Produto = float(input(''))
 
-
-if valorCompra < 20.00:
-  print("Valor de venda: R$%.2f" %(lucro1))
+if Valor_Produto < 20:
+    venda = Valor_Produto * 145/100
 else:
-  print("Valor de venda: R$%.2f" %(lucro2))
+    venda = Valor_Produto * 130/100
+    
+print('Valor de venda: R$%.2f' %(venda))

@@ -1,13 +1,14 @@
-plano = input("")
-salario = float(input(""))
+#https://www.beecrowd.com.br/judge/pt/custom-runs/code/392796
 
-salarioPlanoA = salario + (salario * 0.10)
-salarioPlanoB = salario + (salario * 0.15)
-salarioPlanoC = salario + (salario * 0.20)
+plano = str(input(''))
+salario = float(input(''))
 
-if plano == "A":
-  print("Novo salário: R$%.2f" %(salarioPlanoA))
-elif plano == "B":
-  print("Novo salário: R$%.2f" %(salarioPlanoB))
-elif plano == "C":
-  print("Novo salário: R$%.2f" %(salarioPlanoC))
+if plano == 'A':
+    salario *= 110/100
+    print('Novo salário: R$%.2f' %(salario))
+elif plano == 'B':
+    salario *= 115/100
+    print('Novo salário: R$%.2f' %(salario))
+elif plano == 'C':
+    salario *= 120/100
+    print('Novo salário: R$%.2f' %(salario))

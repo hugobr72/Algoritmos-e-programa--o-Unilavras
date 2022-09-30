@@ -1,3 +1,5 @@
+#https://www.beecrowd.com.br/judge/pt/custom-problems/view/1761
+
 total = 0
 
 
@@ -11,4 +13,3 @@ print('Total da compra: R$%.2f' %total)
 print('Valor pago: R$%.2f'%valorPago)
 troco = valorPago - total
 print('Troco: R$%.2f'%troco)
-#https://www.beecrowd.com.br/judge/pt/custom-problems/view/1761
